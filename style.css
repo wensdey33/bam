@@ -1,0 +1,267 @@
+body {
+    font-family: sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    background-color: #ff1d37;
+    padding: 3%;
+}
+.mains{
+    display: inline-block;
+    justify-content: center;
+}
+
+.center{
+display: flex;
+justify-content: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    display: inline;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-left: 3%;
+
+}
+
+.pencil {
+    text-align: center;
+    border: 5px  solid red;
+    padding: 15px;
+    border-width: thick;
+    margin-left: 35%;
+    width: 120px;
+    background-color: red;
+    opacity: 0.5;
+    font-size: 20px;
+    color: white;
+}
+.pencil:hover{
+    opacity: 1;
+}
+h3{
+    font-size: 25px;
+    /*padding-top: 30px;*/
+
+}
+aside{
+    margin-left: 3%;
+    font-size: 30px;
+    width: 40%;
+}
+
+.abus{
+    display: flex;
+    justify-content: right;
+}
+
+.cent{
+    display: flex;
+    justify-content: left;
+    padding-top: 50px;
+}
+
+.aside{
+    display: flex;
+    justify-content: right;
+    margin-left: 5%;
+}
+/*
+.arrow{
+  display: block;
+  margin: 30px auto;
+  width: 25px;
+  height: 25px;
+  border-top: 2px solid red;
+  border-left: 2px solid red;
+  
+}
+
+.arrow{
+    transform: rotate(135deg);
+}
+
+.arrow::after{
+    content: "";
+    display: block;
+    width: 2px;
+    height: 45px;
+    background-color: red;
+    transform: rotate(-45deg) translate(15px, 4px);
+    left: 0;
+    top: 0;
+
+  }
+*/
+
+
+
+h2 {
+    text-align: center;
+}
+
+.textf{
+width: 200px;
+text-align: start;
+}
+/* кнопка версія 1.0
+.button{
+    text-align: center;
+    border: 5px  solid gray;
+    background-color: gray;
+    padding: 5px;
+    border-width: thick;
+    width: 100px;
+    color: white;
+    opacity: 0.4;
+}
+
+.button:hover{
+    opacity: 1;
+}
+*/
+.fsat{
+    margin-right: 30px;
+    display: table-cell;
+}
+.row{
+    display: flex;
+    text-align: center;
+}
+
+.rowy{
+    display: flex;
+    justify-content: center;
+}
+.avatar{
+    margin-top: 30px;
+    width: 150px;
+}
+.main{
+    font-size: 25px;
+}
+
+.avatar{
+    border-radius: 50%;
+}
+
+.teachers{
+    display: flex;
+    text-align: center;
+} 
+
+.one{
+    display: table-cell;
+    padding-right: 30px;
+}
+
+.every{
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.7em 2em;
+    border: 3px solid #FF0072;
+    border-radius: 2px;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+    color: #FF0072;
+    text-decoration: none;
+    transition: 0.3s ease all;
+    z-index: 1;
+  }
+  
+  .button:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: '';
+    background-color: #FF0072;
+    z-index: -1;
+  }
+  
+  .button:hover, .button:focus {
+    color: white;
+  }
+  
+  .button:hover:before, .button:focus:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+  }
+  
+  .button:active {
+    transform: scale(0.9);
+  }
+
+.adr{
+    display: table;
+    justify-content: center;
+
+  }
+
+.adr li{
+    padding-top: 2%;
+    font-size: 30px;
+
+}
+
+
+.row_adr{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+h4{
+    font-size: 30px;
+}
+
+.im{
+    margin-top: 40px;
+    padding: 5px;
+}
+
+.im img{
+    width: 150px;
+    border-radius: 50%;
+    
+}
+
+.foot{
+    display: block;
+    justify-content: center;
+}
+
+.f_finis{
+    display: flex;
+    justify-content: center;
+}
+
+.f_finis p{
+    font-size: 25px;
+    text-align: center;
+}
+
+.f_finis h4{
+    text-align: center;
+}
+
